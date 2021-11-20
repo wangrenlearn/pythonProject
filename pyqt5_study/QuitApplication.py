@@ -5,7 +5,8 @@ from PyQt5.QtWidgets import QHBoxLayout, QMainWindow, QApplication, QPushButton,
 
 class QuitApplication(QMainWindow):
     def __init__(self):
-        super(QuitApplication, self).__init__() # super().__init__()
+        super(QuitApplication, self).__init__()
+        # super().__init__() 这行和上面一样
         # 设置主窗口的标题
         self.setWindowTitle('退出按钮演示')
         # 设置窗口的尺寸
