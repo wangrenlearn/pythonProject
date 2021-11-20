@@ -34,10 +34,9 @@ class QuitApplication(QMainWindow):
         app.quit()
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = QuitApplication()
     main.show()
-    #app.exec_() # 运行主循环，并在退出时返回状态代码
+    # app.exec_() # 运行主循环，并在退出时返回状态代码
     sys.exit(app.exec_())
