@@ -18,12 +18,10 @@ class TooltipForm(QWidget):
         # 添加Button
         self.button1 = QPushButton('我是按钮')
         self.button1.setToolTip('这是一个按钮，Are you OK?')
-        print(dir(self))
         layout = QHBoxLayout()
         layout.addWidget(self.button1)
 
         self.setLayout(layout)
-        # self.setCentralWidget(mainFrame)
 
 
 if __name__ == '__main__':
